@@ -7,7 +7,7 @@ app.use(bodyParser.json());
 
 app.use('/', schoolRoutes);
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 28171;
 app.listen(PORT, () => {
     console.log(`Server started on port ${PORT}`);
 });
